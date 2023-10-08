@@ -1,0 +1,5 @@
+@mixin cuadrado($longitud: 2, $color: red) {
+    width: $longitud;
+    height: $longitud;
+    background-color: $color;
+  }

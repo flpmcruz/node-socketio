@@ -1,0 +1,22 @@
+{
+  "name": "bases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "sass": "sass --watch src/views/scss:src/views/css"
+  },
+  "author": "Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sass": "^1.69.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10"
+  }
+}

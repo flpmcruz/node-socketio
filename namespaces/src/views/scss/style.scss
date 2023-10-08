@@ -1,0 +1,27 @@
+@use "colors" as c;
+@use "mixins" as m;
+
+.room {
+  display: block;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-top: 10px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+
+  .div1 {
+    @include m.cuadrado(20px, c.$color1);
+  }
+  .div2 {
+    @include m.cuadrado(30px, c.$color2);
+  }
+  .div3 {
+    @include m.cuadrado(40px, c.$color3);
+  }
+}
