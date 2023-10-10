@@ -1,0 +1,23 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "sass": "sass --watch src/public/scss:src/public/css"
+  },
+  "keywords": [],
+  "author": "Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "bufferutil": "^4.0.7",
+    "sass": "^1.69.0",
+    "utf-8-validate": "^5.0.10"
+  }
+}

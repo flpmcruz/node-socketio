@@ -1,0 +1,16 @@
+body {
+  color: white;
+  background: black;
+}
+#status {
+  font-size: 14px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #map {
+    width: 90%;
+    height: 80vh;
+  }
+}
